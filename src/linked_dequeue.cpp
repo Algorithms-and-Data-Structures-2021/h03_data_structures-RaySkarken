@@ -60,7 +60,6 @@ void LinkedDequeue::DequeueBack() {
 }
 
 void LinkedDequeue::Clear() {
-  // TODO: напишите здесь свой код ...
   while (size_ > 0) {
       Dequeue();
   }
